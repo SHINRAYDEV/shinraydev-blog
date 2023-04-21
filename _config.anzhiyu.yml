@@ -29,7 +29,7 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://anzhiy.cn/
+          link: https://shinray.tech/
           icon: /img/favicon.png
     - title: 项目
       item:
@@ -114,7 +114,7 @@ favicon: /img/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+  img: https://s2.loli.net/2023/04/21/ZsmOkSGqQaTB7io.gif
   effect: false
 
 # Disable all banner image
