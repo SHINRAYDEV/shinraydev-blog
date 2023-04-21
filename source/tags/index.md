@@ -1,6 +1,6 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: tags
+date: 2020-05-16 00:00:00
 updated:
 type:
 comments:
