@@ -12,4 +12,6 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
+orderby: random
+order: 1
 ---
