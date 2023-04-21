@@ -2,7 +2,7 @@ backend:
   name: github
   repo: SHINRAYDEV/shiraydev-blog # Path to your Github/Gitlab repository
   branch: main # Branch to update
-  base_url: https://hexo-netlify-cms.vercel.app
+  base_url: https://shinray.vercel.app/
 
 # These lines should *not* be indented
 media_folder: "source/images" # Media files will be stored in the repo under source/images
