@@ -404,9 +404,9 @@ footer:
   runtime:
     enable: true
     launch_time: 04/01/2021 00:00:00 # 网站上线时间
-    work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
+    work_img: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/新瑞-一手搬砖一手摸鱼ing-lightgreen.svg
     work_description: 距离月入25k也就还差一个大佬带我~
-    offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
+    offduty_img: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/新瑞-下班了！Freedom！-lightgreen.svg
     offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
@@ -418,7 +418,7 @@ footer:
       shields: https://pan.anzhiy.cn/d/anzhiyu/svg/Theme-AnZhiYu-2E67D3.svg
       message: 本站使用AnZhiYu主题_v1.1.8
     - link: https://www.dogecloud.com/
-      shields: https://vercelbadge.vercel.app/api/SHINRAYDEV/shinraydev-blog
+      shields: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/Deploying-Vercel-lightgreen.svg
       message: 本站静态网页使用Vercel部署
     - link: https://github.com/
       shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
