@@ -656,7 +656,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: # 自定义头像
+  avatar: https://s2.loli.net/2023/04/21/ZsmOkSGqQaTB7io.gif # 自定义头像
 
 # aside (侧边栏)
 # --------------------------------------
