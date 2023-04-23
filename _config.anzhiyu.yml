@@ -225,7 +225,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
@@ -407,7 +407,7 @@ footer:
     work_img: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/新瑞-一手搬砖一手摸鱼ing-lightgreen.svg
     work_description: 学海无涯，吾生35
     offduty_img: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/新瑞-下班了！Freedom！-lightgreen.svg
-    offduty_description: 下班就要好好享受这为数不多的生活呀
+    offduty_description: 下班就要好好享受这为数不多的生活呀！
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
@@ -911,7 +911,7 @@ home_top:
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
-  siteText: ANZHIY.CN
+  siteText: SHINRAY.TECH
   category:
     - name: 前端
       path: /categories/前端开发/
