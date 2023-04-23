@@ -405,9 +405,9 @@ footer:
     enable: true
     launch_time: 04/01/2021 00:00:00 # 网站上线时间
     work_img: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/新瑞-一手搬砖一手摸鱼ing-lightgreen.svg
-    work_description: 距离月入25k也就还差一个大佬带我~
+    work_description: 学海无涯，吾生35
     offduty_img: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/新瑞-下班了！Freedom！-lightgreen.svg
-    offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
+    offduty_description: 下班就要好好享受这为数不多的生活呀
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
