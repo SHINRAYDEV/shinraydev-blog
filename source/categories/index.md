@@ -32,7 +32,7 @@ highlight_shrink:
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/技术/")'>
-  <card data-image="https://s2.loli.net/2023/04/21/u1Ot9jNeKqT4Aim.png">
+  <card data-image="https://s2.loli.net/2023/04/24/yhQJ6ftoGEObVRn.jpg">
     <h1 slot="header">技术</h1>
     <p slot="content">奇技淫巧备忘录</p>
   </card>
