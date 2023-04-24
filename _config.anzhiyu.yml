@@ -168,7 +168,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "Page Not Found"
-  background: https://s2.loli.net/2023/04/24/Qe6kqaJdIDKWNTg.jpg
+  background: https://s2.loli.net/2023/04/25/E9UQPaqG7pOjk4H.gif
 
 post_meta:
   page: # Home Page
