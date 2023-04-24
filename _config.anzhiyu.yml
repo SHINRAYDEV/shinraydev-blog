@@ -9,10 +9,10 @@ menu:
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
-  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
+  我的:
+    音乐馆: /music/ || anzhiyu-icon-music
+    追番页: /bangumis/ || anzhiyu-icon-bilibili
+    相册集: /album/ || anzhiyu-icon-images
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
@@ -110,7 +110,7 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /img/favicon.png
+favicon: /img/pwa/favicon.ico
 
 # Avatar (头像)
 avatar:
@@ -417,7 +417,7 @@ footer:
     - link: https://anzhiy.cn/
       shields: https://pan.anzhiy.cn/d/anzhiyu/svg/Theme-AnZhiYu-2E67D3.svg
       message: 本站使用AnZhiYu主题_v1.1.8
-    - link: https://www.dogecloud.com/
+    - link: https://vercel.com/
       shields: https://cdn.jsdelivr.net/gh/SHINRAYDEV/shinraydev-image-host/Badge/Deploying-Vercel-lightgreen.svg
       message: 本站静态网页使用Vercel部署
     - link: https://github.com/
@@ -870,10 +870,10 @@ pwa:
   enable: false
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
-  apple_touch_icon: /img/siteicon/128.png
-  favicon_32_32: /img/siteicon/32.png
-  favicon_16_16: /img/siteicon/16.png
-  mask_icon: /img/siteicon/128.png
+  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  favicon_32_32: /img/pwa/favicon-32x32.png
+  favicon_16_16: /img/pwa/favicon-16x16.png
+  mask_icon: /img/pwa/safari-pinned-tab.svg
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
@@ -1011,7 +1011,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
