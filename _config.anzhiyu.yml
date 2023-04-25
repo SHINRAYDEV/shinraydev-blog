@@ -867,7 +867,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
   apple_touch_icon: /img/pwa/apple-touch-icon.png
