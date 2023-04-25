@@ -5,19 +5,55 @@ backend:
   base_url: https://shinray.vercel.app/
 
 # These lines should *not* be indented
-media_folder: "source/images" # Media files will be stored in the repo under source/images
-public_folder: "images" # The src attribute for uploaded media will begin with images
+media_folder: "source/img/upload" # Media files will be stored in the repo under source/images
+public_folder: "img/upload" # The src attribute for uploaded media will begin with images
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
+locale: "zh_Hans"
 
 collections:
-  - name: "Post" # Used in routes, e.g., /admin/collections/blog
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "source/_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "标题", name: "title", widget: "string", required: true }
+      - {
+          label: "发布日期",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD HH:mm:ss",
+          dateFormat: "YYYY-MM-DD",
+          timeFormat: "HH:mm:ss",
+          required: false,
+        }
+      - {
+          label: "更新日期",
+          name: "updated",
+          widget: "datetime",
+          format: "YYYY-MM-DD HH:mm:ss",
+          dateFormat: "YYYY-MM-DD",
+          timeFormat: "HH:mm:ss",
+          required: false,
+        }
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "分类", name: "categories", widget: "list", required: false }
+      - { label: "关键词", name: "keywords", widget: "list", required: false }
+      - { label: "摘要", name: "description", widget: "list", required: false }
+      - { label: "顶部图", name: "cover", widget: "image", required: false }
+      - {
+          label: "文章封面",
+          name: "index_img",
+          widget: "image",
+          required: false,
+        }
+      - {
+          label: "Homepage",
+          name: "academia",
+          widget: "boolean",
+          required: false,
+          hint: "This field determines whether this post is displayed on the homepage.",
+        }
       - { label: "Body", name: "body", widget: "markdown" }
