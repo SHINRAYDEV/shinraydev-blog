@@ -56,4 +56,10 @@ collections:
           required: false,
           hint: "This field determines whether this post is displayed on the homepage.",
         }
-      - { label: "Body", name: "body", widget: "markdown" hint: "博客正文" }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          hint: "博客正文",
+          required: false,
+        }
