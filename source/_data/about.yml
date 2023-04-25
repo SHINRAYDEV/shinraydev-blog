@@ -1,8 +1,8 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
   avatarImg: https://s2.loli.net/2023/04/21/ZsmOkSGqQaTB7io.gif
-  name: 陈志伟
-  description: 是一名 前端工程师、学生、独立开发者、博主
+  name: 新瑞
+  description: 是一名 后端工程师、独立开发者、博主
   aboutsiteTips:
     tips: 追求
     title1: 源于
@@ -20,7 +20,7 @@
     tips: 生涯
     title: 无限进步
     item:
-      - EDU,软件工程专业
+      - EDU,计算机科学与技术专业
     img: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330e9bcc39cc.png
   statistic:
     link: /archives
