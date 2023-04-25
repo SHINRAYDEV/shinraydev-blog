@@ -10,7 +10,7 @@ public_folder: "img/upload" # The src attribute for uploaded media will begin wi
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
-locale: "zh_Hans"
+# locale: "zh_Hans"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
