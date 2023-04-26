@@ -852,7 +852,7 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之间添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (图片懒加载)
@@ -1063,7 +1063,7 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
-    # pjax:
+    pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
     # blueimp_md5:
     # valine:
     # twikoo:
@@ -1078,7 +1078,7 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
+    lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
     # instantpage:
     # typed:
     # pangu:
