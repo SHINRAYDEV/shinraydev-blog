@@ -40,7 +40,7 @@ aside:
 
 ## 系统安装
 
-macOS的相关下载与安装官方说明已足够详细明了，除非是Hackintosh的玩法，后面会单独开文记录，因此在此不过多赘述。
+macOS的相关下载与安装官方说明已足够详细明了，除非是Hackintosh的玩法，后面会单独开文记录，因此在此不再赘述。
 
 [macOS下载](https://support.apple.com/zh-cn/HT211683)
 [macOS可引导安装器制作](https://support.apple.com/zh-cn/HT201372)
@@ -190,7 +190,7 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 ## 开发配置
 * [安装Xcode](https://apps.apple.com/cn/app/xcode/id497799835?mt=12)
 * [安装 Xcode Command Line Tools](https://developer.apple.com/download/all/?q=xcode)
-可直接使用命令行安装，但介于一些祖国花朵儿网络不好容易中断失败也可点击上方链接直接跳转下载安装，前提注册准备好一个Apple开发者账号。
+可直接使用命令行安装，但介于许多祖国小花朵网络不好容易中断失败也可点击上方链接直接跳转下载安装，前提注册准备好一个Apple开发者账号。
 ```bash
 # 安装 xcode 命令行工具
 xcode-select --install
