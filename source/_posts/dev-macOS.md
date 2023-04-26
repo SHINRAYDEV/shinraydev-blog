@@ -53,16 +53,50 @@ macOS的相关下载与安装官方说明已足够详细明了，除非是Hackin
 
 ### 访达Finder
 * 显示当前路径 (「访达」- option+command+p)
+  ```bash
+defaults write com.apple.finder ShowPathbar -bool true
+  ```
   ![隐藏/显示路径](https://s2.loli.net/2023/04/26/eR6acBgQKPJSZ7k.png)
 * 侧边栏目录管理（「访达」-「设置」command+,）
 ![访达设置](https://s2.loli.net/2023/04/26/j1WKQgbi6vLT4YJ.png)
 ![侧边栏目录管理](https://s2.loli.net/2023/04/26/oAkTaincI81Us3B.png)
 * 文件名后缀显示隐藏
+```bash
+defaults write -g AppleShowAllExtensions -bool true
+```
 ![文件后缀开启/隐藏](https://s2.loli.net/2023/04/26/Bs5VTv3ZOrwYGen.png)
+* 禁用修改扩展名时的警告
+```bash
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+```
 * macOS办公利器访达QuickLook空格键一键预览功能拓展
   [QuickLook扩展插件](https://github.com/sindresorhus/quick-look-plugins)
+* 允许选择QuickLook中的文本
+*能看不让选，这不浪费感情嘛*
+  ```bash
+  defaults write com.apple.finder QLEnableTextSelection -bool true
+  ```
+* network volumes 禁止创建 .DS_Store
+  ```bash
+  defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+  ```
 ### 程序坞Dock
+*MacBook系列向来可以说是屏幕不能算大，只是勉强够用，因此不可能再一直开着Dock栏滑来滑去看动画儿，再开个IDE加个底部终端就不用看代码debug了。
+因此Dock栏设置我主要为隐藏+尽量小而精简。*
+```bash
+# 自动隐藏 Dock
+defaults write com.apple.dock autohide -bool true
+
+# 取消 Dock 默认显示的“最近打开应用”
+defaults write com.apple.dock show-recents -bool false
+
+# 调整 Dock 图标大小
+defaults write com.apple.dock tilesize -int 58
+```
+![我的Dock设置](https://s2.loli.net/2023/04/26/SXLKVEnIewzhJTM.png)
+![注意此处还可以修改系统默认启动浏览器](https://s2.loli.net/2023/04/26/UgO35RtMuDlSWs6.png)
 * 减少程序坞的响应时间
+*当你选择隐藏程序坞后，需要用它时你会发现它总是慢吞吞半天才出来，这是许多人弃用的原因，而这一点是可以调整解决的。*
 ```bash
 # 设置启动坞动画时间设置为 0.5 秒
 defaults write com.apple.dock autohide-time-modifier -float 0.5 && killall Dock
@@ -89,12 +123,6 @@ pwpolicy -clearaccountpolicies
 passwd
 ```
 
-* 允许安装任意来源的 App 
-```bash
-# APP安装开启任何来源
-sudo spctl --master-disable
-```
-
 * 修改主机名和共享名称
 ![主机名@共享名称](https://s2.loli.net/2023/04/26/AL2oi9s6lgrVuPN.png)
 ```bash
@@ -104,6 +132,12 @@ sudo scutil --set HostName {自定义主机名}
 ```bash
 # 修改共享名称
 sudo scutil --set ComputerName {自定义电脑名}
+```
+
+* 允许安装任意来源的 App 
+```bash
+# APP安装开启任何来源
+sudo spctl --master-disable
 ```
 
 * 禁止“Are you sure you want to open this application?”提示
@@ -151,6 +185,16 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 ```
+
+* 禁止在 double space 时添加句点
+```bash
+defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false
+```
+
+* 禁止输入时自动将 word 首字母大写
+```bash
+defaults write -g NSAutomaticCapitalizationEnabled -bool false
+```
 ## 按键整理
 
 * `Enter`：选中一个文件按下`Enter`，直接重命名。
@@ -190,7 +234,7 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 ## 开发配置
 * [安装Xcode](https://apps.apple.com/cn/app/xcode/id497799835?mt=12)
 * [安装 Xcode Command Line Tools](https://developer.apple.com/download/all/?q=xcode)
-可直接使用命令行安装，但介于许多祖国小花朵网络不好容易中断失败也可点击上方链接直接跳转下载安装，前提注册准备好一个Apple开发者账号。
+*可直接使用命令行安装，但介于许多祖国小花朵网络不好容易中断失败也可点击上方链接直接跳转下载安装，前提注册准备好一个Apple开发者账号。*
 ```bash
 # 安装 xcode 命令行工具
 xcode-select --install
