@@ -154,13 +154,13 @@ killall Dock
 * `Shift + Command + Delete`：永久删除。
 * `Control + Command + Space`：emoji😝
 * `Command + Up`：回到上一层文件夹。
-* `Command + Down`：文件夹则进入，文件则打开
-* `Ctrl + Left/Right`：切换桌面空间
-* `Ctrl + Command + q`：锁屏
-* `Command + .`：隐藏/显示'.'开头文件
-* `Shift + Command + .`：临时隐藏/显示'.'开头文件
-* `Command + Alt + i`：Chrome/Edge开发者工具，相当于F12
-* `Command + Shift + g`：Finder中如何输入路径直接跳转
+* `Command + Down`：文件夹则进入，文件则打开。
+* `Ctrl + Left/Right`：切换桌面空间。
+* `Ctrl + Command + q`：锁屏。
+* `Command + .`：隐藏/显示'.'开头文件。
+* `Shift + Command + .`：临时隐藏/显示'.'开头文件。
+* `Command + Alt + i`：Chrome/Edge开发者工具，相当于F12。
+* `Command + Shift + g`：Finder中如何输入路径直接跳转。
   * `Command + Shift + c`：电脑
   * `Command + Shift + h`：个人
   * `Command + Shift + d`：桌面
