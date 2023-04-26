@@ -249,7 +249,7 @@ related_post:
   date_type: created # or created or updated 文章日期显示创建日或者更新日
 
 # figcaption (图片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分页)
 # value: 1 || 2 || false
@@ -997,7 +997,7 @@ visitorMail:
 # 即刻页面配置
 essay:
   enable: true
-  top_background:
+  top_background: https://s2.loli.net/2023/04/21/j1dgaWFfPTkJeOC.jpg
 
 # ptool 文章底部工具
 ptool:
@@ -1085,8 +1085,8 @@ CDN:
     # fancybox_css_v4:
     # fancybox_v4:
     # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
+    snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:

@@ -70,6 +70,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0.5 && killall Dock
 # 设置启动坞响应时间最短
 defaults write com.apple.dock autohide-delay -int 0 && killall Dock
 ```
+恢复默认设置
 ```bash
 # 恢复启动坞默认动画时间
 defaults delete com.apple.dock autohide-time-modifier && killall Dock
@@ -133,6 +134,7 @@ defaults write com.apple.dock springboard-rows -int 6
 # 重启 Dock 生效
 killall Dock
 ```
+恢复默认设置
 ```bash
 # 恢复默认的列数和行数
 defaults write com.apple.dock springboard-rows Default
@@ -141,12 +143,22 @@ defaults write com.apple.dock springboard-columns Default
 # 重启 Dock 生效
 killall Dock
 ```
+
+* 开启 Safari debug 相关功能
+```bash
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+```
 ## 按键整理
 
 * `Enter`：选中一个文件按下`Enter`，直接重命名。
 * `Ctrl`：命令行快捷键。
 * `Command`：图形界面快捷键。
 * `Option`：alt切换功能，切换附属功能，比如点击左上角苹果Logo再按下`option`「关于本机」会切换为「系统信息...」功能。
+* 选中单词，三指翻译。
+  ![pro有时候不起作用需要设置](https://s2.loli.net/2023/04/26/5wh76ufcAR4GVJo.png)
 * `Command + Shift + n`：选中所需归档资料，按下`Command + Shift + n`，会将文件归档在一个文件夹下。
 * `Option + Command + v`：剪切，也可以拷贝后，右键+`option`，「粘贴项目」会切换为「项目移到这里」。
 * `Command + Option + c`：复制文件路径。
@@ -166,7 +178,14 @@ killall Dock
   * `Command + Shift + d`：桌面
   * `Command + Shift + a`：应用程序
 
-## 技巧
+### 终端快捷键
+
+* `Ctrl + a`：移动到行首
+* `Ctrl + e`：移动到行尾
+* `Ctrl + k`：删除到行尾
+* `Ctrl + u`：删除到行首
+* `Ctrl + n`：移动到下一行
+* `Ctrl + p`：移动到上一行
 
 ## 开发配置
 * [安装Xcode](https://apps.apple.com/cn/app/xcode/id497799835?mt=12)
