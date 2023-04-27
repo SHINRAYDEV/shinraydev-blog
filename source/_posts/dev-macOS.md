@@ -56,15 +56,17 @@ macOS的相关下载与安装官方说明已足够详细明了，除非是Hackin
   ```bash
 defaults write com.apple.finder ShowPathbar -bool true
   ```
-  ![隐藏/显示路径](https://s2.loli.net/2023/04/26/eR6acBgQKPJSZ7k.png)
+⬇️ GUI设置 ⬇️
+![隐藏/显示路径](https://s2.loli.net/2023/04/26/eR6acBgQKPJSZ7k.png)
 * 侧边栏目录管理（「访达」-「设置」command+,）
 ![访达设置](https://s2.loli.net/2023/04/26/j1WKQgbi6vLT4YJ.png)
 ![侧边栏目录管理](https://s2.loli.net/2023/04/26/oAkTaincI81Us3B.png)
-* 文件名后缀显示隐藏
+* 文件名后缀显示/隐藏
 ```bash
 defaults write -g AppleShowAllExtensions -bool true
 ```
-![文件后缀开启/隐藏](https://s2.loli.net/2023/04/26/Bs5VTv3ZOrwYGen.png)
+⬇️ GUI设置 ⬇️
+![文件后缀显示/隐藏](https://s2.loli.net/2023/04/26/Bs5VTv3ZOrwYGen.png)
 * 禁用修改扩展名时的警告
 ```bash
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
