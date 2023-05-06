@@ -234,6 +234,7 @@ defaults write -g NSAutomaticCapitalizationEnabled -bool false
 * `Ctrl + p`：移动到上一行
 
 ## 开发配置
+### 基础配置
 * [安装Xcode](https://apps.apple.com/cn/app/xcode/id497799835?mt=12)
 * [安装 Xcode Command Line Tools](https://developer.apple.com/download/all/?q=xcode)
 *可直接使用命令行安装，但介于许多祖国小花朵网络不好容易中断失败也可点击上方链接直接跳转下载安装，前提注册准备好一个Apple开发者账号。*
@@ -241,6 +242,9 @@ defaults write -g NSAutomaticCapitalizationEnabled -bool false
 # 安装 xcode 命令行工具
 xcode-select --install
 ```
+### [🍺Homebrew](https://brew.sh)
+### Shell
+### iTerm2
 ## 好软推荐
 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
 [Homebrew](https://brew.sh)
