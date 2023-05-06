@@ -242,3 +242,13 @@ defaults write -g NSAutomaticCapitalizationEnabled -bool false
 xcode-select --install
 ```
 ## 好软推荐
+[ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
+[Homebrew](https://brew.sh)
+[MacZip](https://maczip.cn)
+[Alfred](https://www.alfredapp.com)
+[Swish](https://highlyopinionated.co/swish)
+[超级右键](https://www.better365.cn/irightmouse.html)
+[balenaEtcher](https://www.balena.io/etcher)
+[Mos](https://mos.caldis.me)
+[DaisyDisk](https://daisydiskapp.com)
+[App Cleaner & Uninstaller Pro](https://nektony.com/mac-app-cleaner)
