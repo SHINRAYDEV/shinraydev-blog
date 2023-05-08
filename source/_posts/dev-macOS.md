@@ -243,18 +243,43 @@ defaults write -g NSAutomaticCapitalizationEnabled -bool false
 xcode-select --install
 ```
 ### [🍺Homebrew](https://brew.sh)
+强大便捷高效的包管理器，可以避免沾到中文互联网畸形大粪池，其能够管理包下所有视图软件和非视图软件的登陆项、后台运行管理和版本管理。
 ### Shell
 这里主要推荐新版本的shell环境zsh，shell环境的定制因人而异，软件框架和插件都五花八门，主要目标便是更加高效、美观、强大，新人可以保有兴趣研究但没必要花费太大部分的精力去折腾，这里推荐我常开箱即用的[ZPWR](https://github.com/MenkeTechnologies/zpwr)，其主要由ZSH的插件管理框架Zinit搭建，适用环境包含了macOS及大部分发行版Linux，几乎完善了所有开发所需的环境和插件。
 
 ### iTerm2
 ## 好软推荐
-[ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
-[Homebrew](https://brew.sh)
-[MacZip](https://maczip.cn)
-[Alfred](https://www.alfredapp.com)
-[Swish](https://highlyopinionated.co/swish)
-[超级右键](https://www.better365.cn/irightmouse.html)
-[balenaEtcher](https://www.balena.io/etcher)
+### GUI工具
+* [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
+* [MacZip](https://maczip.cn)
+```bash
+brew install --cask maczip
+```
+* [Bartender](https://www.macbartender.com/)
+```bash
+brew install --cask bartender
+```
+* [Alfred](https://www.alfredapp.com)
+```bash
+brew install --cask alfred
+```
+* [IINA](https://iina.io/)
+```bash
+brew install --cask iina
+```
+* [Swish](https://highlyopinionated.co/swish)
+```bash
+brew install --cask swish
+```
+* [超级右键](https://www.better365.cn/irightmouse.html)
+* [balenaEtcher](https://www.balena.io/etcher)
+```bash
+brew install --cask balenaetcher
+```
 [Mos](https://mos.caldis.me)
+```bash
+brew install --cask mos
+```
 [DaisyDisk](https://daisydiskapp.com)
 [App Cleaner & Uninstaller Pro](https://nektony.com/mac-app-cleaner)
+[Cleaner for Xcode](https://apps.apple.com/cn/app/cleaner-for-xcode/id1296084683?mt=12)
