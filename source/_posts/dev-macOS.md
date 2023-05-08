@@ -205,33 +205,33 @@ defaults write -g NSAutomaticCapitalizationEnabled -bool false
 * `Option`：alt切换功能，切换附属功能，比如点击左上角苹果Logo再按下`option`「关于本机」会切换为「系统信息...」功能。
 * 选中单词，三指翻译。
   ![pro有时候不起作用需要设置](https://s2.loli.net/2023/04/26/5wh76ufcAR4GVJo.png)
-* `Command + Shift + n`：选中所需归档资料，按下`Command + Shift + n`，会将文件归档在一个文件夹下。
-* `Option + Command + v`：剪切，也可以拷贝后，右键+`option`，「粘贴项目」会切换为「项目移到这里」。
-* `Command + Option + c`：复制文件路径。
-* `Command + Delete`：移到废纸篓。
-* `Shift + Command + Delete`：永久删除。
-* `Control + Command + Space`：emoji😝
-* `Command + Up`：回到上一层文件夹。
-* `Command + Down`：文件夹则进入，文件则打开。
-* `Ctrl + Left/Right`：切换桌面空间。
-* `Ctrl + Command + q`：锁屏。
-* `Command + .`：隐藏/显示'.'开头文件。
-* `Shift + Command + .`：临时隐藏/显示'.'开头文件。
-* `Command + Alt + i`：Chrome/Edge开发者工具，相当于F12。
-* `Command + Shift + g`：Finder中如何输入路径直接跳转。
-  * `Command + Shift + c`：电脑
-  * `Command + Shift + h`：个人
-  * `Command + Shift + d`：桌面
-  * `Command + Shift + a`：应用程序
+* `Command`+`Shift`+`n`：选中所需归档资料，按下`Command + Shift + n`，会将文件归档在一个文件夹下。
+* `Option`+`Command`+`v`：剪切，也可以拷贝后，`右键`+ `option`，「粘贴项目」会切换为「项目移到这里」。
+* `Command`+`Option`+`c`：复制文件路径。
+* `Command`+`Delete`：移到废纸篓。
+* `Shift`+`Command`+`Delete`：永久删除。
+* `Control`+`Command`+`Space`：emoji😝
+* `Command`+`Up`：回到上一层文件夹。
+* `Command`+`Down`：文件夹则进入，文件则打开。
+* `Ctrl`+`Left/Right`：切换桌面空间。
+* `Ctrl`+`Command`+`q`：锁屏。
+* `Command`+`.`：隐藏/显示'.'开头文件。
+* `Shift`+`Command`+`.`：临时隐藏/显示'.'开头文件。
+* `Command`+`Alt`+`i`：Chrome/Edge开发者工具，相当于F12。
+* `Command`+`Shift`+`g`：Finder中如何输入路径直接跳转。
+  * `Command`+`Shift`+`c`：电脑
+  * `Command`+`Shift`+`h`：个人
+  * `Command`+`Shift`+`d`：桌面
+  * `Command`+`Shift`+`a`：应用程序
 
 ### 终端快捷键
 
-* `Ctrl + a`：移动到行首
-* `Ctrl + e`：移动到行尾
-* `Ctrl + k`：删除到行尾
-* `Ctrl + u`：删除到行首
-* `Ctrl + n`：移动到下一行
-* `Ctrl + p`：移动到上一行
+* `Ctrl`+`a`：移动到行首
+* `Ctrl`+`e`：移动到行尾
+* `Ctrl`+`k`：删除到行尾
+* `Ctrl`+`u`：删除到行首
+* `Ctrl`+`n`：移动到下一行
+* `Ctrl`+`p`：移动到上一行
 
 ## 开发配置
 ### 基础配置
@@ -244,6 +244,8 @@ xcode-select --install
 ```
 ### [🍺Homebrew](https://brew.sh)
 ### Shell
+这里主要推荐新版本的shell环境zsh，shell环境的定制因人而异，软件框架和插件都五花八门，主要目标便是更加高效、美观、强大，新人可以保有兴趣研究但没必要花费太大部分的精力去折腾，这里推荐我常开箱即用的[ZPWR](https://github.com/MenkeTechnologies/zpwr)，其主要由ZSH的插件管理框架Zinit搭建，适用环境包含了macOS及大部分发行版Linux，几乎完善了所有开发所需的环境和插件。
+
 ### iTerm2
 ## 好软推荐
 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
