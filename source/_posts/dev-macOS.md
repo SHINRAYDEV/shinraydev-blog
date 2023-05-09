@@ -276,10 +276,13 @@ brew install --cask swish
 ```bash
 brew install --cask balenaetcher
 ```
-[Mos](https://mos.caldis.me)
+* [Mos](https://mos.caldis.me)
 ```bash
 brew install --cask mos
 ```
-[DaisyDisk](https://daisydiskapp.com)
+* [DaisyDisk](https://daisydiskapp.com)
+```bash
+brew install --cask daisydisk
+```
 [App Cleaner & Uninstaller Pro](https://nektony.com/mac-app-cleaner)
 [Cleaner for Xcode](https://apps.apple.com/cn/app/cleaner-for-xcode/id1296084683?mt=12)
