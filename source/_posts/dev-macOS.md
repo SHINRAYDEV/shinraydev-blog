@@ -284,5 +284,5 @@ brew install --cask mos
 ```bash
 brew install --cask daisydisk
 ```
-[App Cleaner & Uninstaller Pro](https://nektony.com/mac-app-cleaner)
-[Cleaner for Xcode](https://apps.apple.com/cn/app/cleaner-for-xcode/id1296084683?mt=12)
+* [App Cleaner & Uninstaller Pro](https://nektony.com/mac-app-cleaner)
+* [Cleaner for Xcode](https://apps.apple.com/cn/app/cleaner-for-xcode/id1296084683?mt=12)
