@@ -23,13 +23,13 @@
         - https://bu.dusays.com/2023/04/09/64329399db122.webp
         - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
 
-- class_name: 我的日常
-  path_name: /dailyPhoto
+- class_name: Wallpapers
+  path_name: /wallpapers
   type: 1
-  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  description: 护眼的一些壁纸
   cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
   album_list:
-    - date: 2022-10-24
+    - date: 2022-01-31
       content: 老妹的画
       image:
         - https://bu.dusays.com/2023/04/09/643293997b92b.jpeg
