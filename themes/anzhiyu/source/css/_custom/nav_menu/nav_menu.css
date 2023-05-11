@@ -58,7 +58,7 @@ div#menus {
   margin: 0 3px;
 }
 #nav .menus_items .menus_item .menus_item_child:before {
-  top: -19px;
+  top: -20px;
 }
 #site-name,
 .shuoshuo {
@@ -552,6 +552,9 @@ center#name-container {
     border-bottom: none;
     backdrop-filter: none;
     background: var(--anzhiyu-background);
+  }
+  #page-header #nav #nav-right div {
+    margin-left: 0.5rem;
   }
 }
 
