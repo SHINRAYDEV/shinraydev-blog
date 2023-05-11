@@ -981,8 +981,8 @@ envelope_comment:
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活就像肉鸽
-  subTitle: 在随机中尽力保持着一丝规律
+  title: 生活如肉鸽。
+  subTitle: 随机中尽力保持着一丝规律。
   siteText: SHINRAY.TECH
   category:
     - name: 开发
