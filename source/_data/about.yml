@@ -28,8 +28,8 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，上海市
-    background: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e6f48981d8.jpg
-    backgroundDark: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ebf1f3e65.jpg
+    background: https://s2.loli.net/2023/05/11/YLwHiT6EeRg5InA.png
+    backgroundDark: https://s2.loli.net/2023/05/11/sP3EFkV8rMnIQtc.png
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2000
@@ -85,53 +85,53 @@
     music_title: 许嵩、民谣、华语流行
     music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
     music_link: /music
-  reward_list:
-    - name: 海阔蓝
-      amount: 8.8
-      datatime: 2023-03-28
-    - name: LK66
-      amount: 66.6
-      datatime: 2023-03-24
-    - name: 张时貳
-      amount: 6.6
-      datatime: 2023-01-22
-    - name: ZeroAf
-      amount: 9.9
-      datatime: 2022-12-14
-    - name: LuckyWangXi
-      amount: 6.6
-      datatime: 2022-12-14
-    - name: 刀中日月长
-      amount: 10
-      datatime: 2022-11-16
-    - name: 鹿啵包
-      amount: 10
-      datatime: 2022-11-08
-    - name: 疾速k
-      amount: 50
-      datatime: 2022-09-20
-    - name: 伴舟先生大霖子
-      amount: 4.03
-      datatime: 2022-10-27
-      suffix: 贝壳
-    - name: Magica_0x0
-      amount: 3.36
-      datatime: 2022-10-07
-      suffix: 贝壳
-    - name: 名字就是要短像这样
-      amount: 3.36
-      datatime: 2022-08-25
-      suffix: 贝壳
-    - name: Leviathan520
-      amount: 1.34
-      datatime: 2022-08-23
-      suffix: 贝壳
-    - name: 托马斯
-      amount: 10
-      datatime: 2022-08-19
-    - name: 哇是猫猫欸
-      amount: 1.34
-      datatime: 2022-08-19
-      suffix: 贝壳
+  # reward_list:
+  #   - name: 海阔蓝
+  #     amount: 8.8
+  #     datatime: 2023-03-28
+  #   - name: LK66
+  #     amount: 66.6
+  #     datatime: 2023-03-24
+  #   - name: 张时貳
+  #     amount: 6.6
+  #     datatime: 2023-01-22
+  #   - name: ZeroAf
+  #     amount: 9.9
+  #     datatime: 2022-12-14
+  #   - name: LuckyWangXi
+  #     amount: 6.6
+  #     datatime: 2022-12-14
+  #   - name: 刀中日月长
+  #     amount: 10
+  #     datatime: 2022-11-16
+  #   - name: 鹿啵包
+  #     amount: 10
+  #     datatime: 2022-11-08
+  #   - name: 疾速k
+  #     amount: 50
+  #     datatime: 2022-09-20
+  #   - name: 伴舟先生大霖子
+  #     amount: 4.03
+  #     datatime: 2022-10-27
+  #     suffix: 贝壳
+  #   - name: Magica_0x0
+  #     amount: 3.36
+  #     datatime: 2022-10-07
+  #     suffix: 贝壳
+  #   - name: 名字就是要短像这样
+  #     amount: 3.36
+  #     datatime: 2022-08-25
+  #     suffix: 贝壳
+  #   - name: Leviathan520
+  #     amount: 1.34
+  #     datatime: 2022-08-23
+  #     suffix: 贝壳
+  #   - name: 托马斯
+  #     amount: 10
+  #     datatime: 2022-08-19
+  #   - name: 哇是猫猫欸
+  #     amount: 1.34
+  #     datatime: 2022-08-19
+  #     suffix: 贝壳
 
   extra: false
