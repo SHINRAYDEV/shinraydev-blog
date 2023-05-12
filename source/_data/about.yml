@@ -49,8 +49,8 @@
     maxim_bottom: 随机中尽力保持着一丝规律。
   buff:
     buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_top: DIY Gaming 羽毛球
+    buff_bottom: 不会画画的程序员不是好Buger
   game:
     game_tips: 爱好游戏
     game_title: 塞尔达传说 王国之泪
@@ -77,9 +77,9 @@
         cover: https://s2.loli.net/2023/05/12/R9dSPcTpwW2mOxk.webp
   like:
     like_tips: 关注偏好
-    like_title: 数码科技
-    like_bg: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632f0dd8f33c6.webp
-    like_bottom: 手机、电脑软硬件
+    like_title: 数码科技、穿搭、游戏
+    like_bg: https://s2.loli.net/2023/05/12/FSNl97R2BmxG3rX.webp
+    like_bottom: DIY硬件、技术学习
   music:
     music_tips: 音乐偏好
     music_title: 流行、摇滚、OST
