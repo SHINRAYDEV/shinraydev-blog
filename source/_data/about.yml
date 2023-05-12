@@ -60,21 +60,21 @@
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
-      - name: 约定的梦幻岛
-        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/63988658aa1b1.webp
-      - name: 咒术回战
-        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/6398864e572ed.webp
-      - name: 紫罗兰永恒花园
-        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/639886315d658.webp
-      - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/639886403d472.webp
-      - name: JOJO的奇妙冒险 黄金之风
-        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/6398862649585.webp
+      - name: 间谍过家家
+        href: https://www.bilibili.com/bangumi/media/md28237119
+        cover: https://s2.loli.net/2023/05/12/Piqa7HeSFndh1l8.webp
+      - name: JOJO的奇妙冒险 石之海
+        href: https://www.bilibili.com/bangumi/media/md28235123
+        cover: https://s2.loli.net/2023/05/12/bfusTKCOgernyHF.webp
+      - name: 鬼滅の刃 刀鍛冶の里編
+        href: https://movie.douban.com/subject/35769236/
+        cover: https://s2.loli.net/2023/05/12/AfFvkQHn5IwxD4p.jpg
+      - name: 海贼王
+        href: https://movie.douban.com/subject/1453238/
+        cover: https://s2.loli.net/2023/05/12/uCczlFPpWINJOEm.jpg
+      - name: 日常
+        href: https://www.bilibili.com/bangumi/media/md844
+        cover: https://s2.loli.net/2023/05/12/R9dSPcTpwW2mOxk.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
