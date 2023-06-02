@@ -1,3 +1,17 @@
+#web_container
+  background: var(--global-bg);
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 2;
+  max-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+#web_box
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 2;
+  max-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+
 #body-wrap
   display: flex
   flex-direction: column
@@ -5,9 +19,13 @@
   +maxWidth768()
     .layout
       padding: 0;
-    #category,#tag
+    #category,
+    #tag
       padding: 40px 15px 20px;
       background: var(--anzhiyu-background)
+    +maxWidth768()
+      #tag
+        background: transparent;
     #archive
       background: var(--anzhiyu-background)
   

@@ -19,16 +19,15 @@
   background: var(--anzhiyu-card-bg)
   font-size: 14px
 
-#sidebar #sidebar-menus .menus_items a.site-page,
 #sidebar .menus_item ul
-  padding-left: 0
-
+  padding-left: 0px
+#sidebar #sidebar-menus .menus_items a.site-page
+  padding-left: .3rem
 #nav-group
   max-width: 1400px;
   width: 100%;
   display: flex;
   position: relative;
-  padding: 0 1.5rem;
   align-items: center;
 @media screen and (max-width: 768px)
   #page-header #nav
@@ -76,6 +75,8 @@
   height 60px
   left 0
   margin 0
+  transform: translateZ(0);
+  will-change: auto
 
 #nav .site-page
   padding-bottom 0px
@@ -158,6 +159,7 @@ ul.menus_item_child
   box-shadow none
   font-weight bold
   border-radius 100px
+  min-width 100px
 
 #name-container
   align-items center
@@ -213,7 +215,7 @@ ul.menus_item_child
   text-align center
   cursor pointer
   top 0
-  font-size 1rem
+  font-size 1.1rem
   animation-timing-function ease-in
   -webkit-animation-timing-function ease-in
 
@@ -399,7 +401,6 @@ ul.menus_item_child
   flex-direction row
   height 100%
   align-items center
-  margin-right 1.5rem
   overflow hidden
 
 /* nav left */
@@ -439,6 +440,14 @@ ul.menus_item_child
 #page-header #nav #nav-left .nav-button a:hover i
   color var(--anzhiyu-white)
   transition background 0.35s ease-in-out, color 0.2s ease-in-out
+
+[data-theme="dark"] #page-header #nav #nav-right .nav-button a i,
+[data-theme="dark"] #page-header #nav #nav-left .nav-button a i,
+[data-theme="dark"] #page-header #nav #nav-right .nav-button a i,
+[data-theme="dark"] #page-header #nav #nav-left .nav-button a i,
+[data-theme="dark"] #page-header.nav-fixed:not(.not-top-img) #nav .back-home-button
+  +maxWidth768()
+    color: #c9c9c9 !important
 
 /* 返回顶部按钮样式 */
 #nav-totop
@@ -483,7 +492,6 @@ ul.menus_item_child
   display flex
   justify-content center
   align-items center
-  transition 0.3s
   white-space nowrap
   color var(--card-bg)
   width 25px
@@ -551,7 +559,6 @@ ul.menus_item_child
     margin-bottom 10px
   #nav
     border-bottom none
-    backdrop-filter none
     background var(--anzhiyu-background)
   #page-header #nav #nav-right div
     margin-left 0.5rem

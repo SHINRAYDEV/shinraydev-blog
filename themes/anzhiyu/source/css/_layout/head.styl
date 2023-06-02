@@ -97,10 +97,11 @@
       margin: 0 -20% 0 auto;
       overflow: hidden;
       margin-bottom: 0;
-      transform: rotate(10deg) translateY(-10%) scale(2);
       filter: blur(10px);
-      if !hexo-config('post_meta.post.rotate')
-        transform: none
+      opacity: 0.5;
+      animation: showCover 1s 0.3s backwards;
+      transform: rotate(10deg) translateY(-10%) scale(2);
+      if !hexo-config('post_meta.post.mainTone')
         margin: auto
         width: auto
         &::after
@@ -155,15 +156,15 @@
         #nav
           background: var(--anzhiyu-card-bg);
           outline: 1px solid var(--anzhiyu-card-border);
-
-    &:before    
-      position: absolute
-      width: 100%
-      height: 100%
-      content: ''
-      transition: 0s;
-      background-color: var(--anzhiyu-bar-background);
-      animation: slide-in-op 0.6s 0s forwards;
+    if hexo-config('post_meta.post.mainTone')
+      &:before    
+        position: absolute
+        width: 100%
+        height: 100%
+        content: ''
+        transition: 0s;
+        background-color: var(--anzhiyu-bar-background);
+        animation: slide-in-op 0.6s 0s forwards;
 
   #post-info
     position: absolute
@@ -181,7 +182,7 @@
     +maxWidth768()
       padding: 11rem 6% 0;
       align-items: center;
-      if hexo-config('post_meta.post.rotate')
+      if hexo-config('post_meta.post.mainTone')
         &:after
           display: block
           position: absolute;
@@ -220,9 +221,6 @@
         text-shadow: none
         transition: background .35s ease-in-out,color .2s ease-in-out;
 
-        &:hover
-          color: var(--white)
-
   &.nav-fixed
     #name-container
       z-index: 101;
@@ -251,7 +249,7 @@
       #menus
         div.menus_items
           opacity: 1;
-          transition: 0.15s;
+          transition: 0.3s;
           position: relative;
           top: 0px;
 
@@ -476,6 +474,9 @@
         align-items: center;
         justify-content: center;
 
+        i
+          font-size: 1.35rem;
+
     .menus_items
       display: none
 
@@ -516,13 +517,13 @@
   100%
     transform: translate3d(85px, 0, 0)
 
-// #page-header.post-bg
 #page-header.post-bg
   height: 34rem
-  transition: 0s
+  transition: 0.6s
   background-color: transparent
   overflow: hidden
-  background-color: var(--anzhiyu-bar-background)
+  if hexo-config('post_meta.post.mainTone')
+    background-color: var(--anzhiyu-bar-background)
 
   // #nav
   #nav
@@ -533,6 +534,8 @@
   .post-meta:has(.bili-banner),
   .post-meta:has(.blqbanner)
     pointer-events: all
+  .bili-banner
+    margin-top: 0 !important
 
   // #post-info
   #post-info:has(.bldbanner),
@@ -541,9 +544,14 @@
     pointer-events: none
 
   &:has(.bldbanner),
-  &:has(.bili-banner),
   &:has(.blqbanner)
     height: 15rem
+    img
+      border-radius: 0px 
+  &:has(.bili-banner)
+    height: 11rem
+    img
+      border-radius: 0px 
 
 //波浪css
 .main-hero-waves-area
@@ -669,8 +677,9 @@
   .layout > div:first-child:not(.recent-posts)
     z-index: 10;
     margin-top: -30px;
-  #page-header.post-bg #nav
-    background: linear-gradient(to top, var(--anzhiyu-main-none) 0%, var(--anzhiyu-bar-background) 100%);
+  if hexo-config('post_meta.post.mainTone')
+    #page-header.post-bg #nav
+      background: linear-gradient(to top, var(--anzhiyu-main-none) 0%, var(--anzhiyu-bar-background) 100%);
   .post-bg:has(.bldbanner) #post-info:after,
   .post-bg:has(.bili-banner) #post-info:after,
   .post-bg:has(.blqbanner) #post-info:after
@@ -682,3 +691,12 @@
   .main-hero-waves-area
     display: none;
     visibility: hidden;
+
+@keyframes showCover
+  0%
+    opacity: 0;
+    transform: rotate(10deg) translateY(-8%) scale(1.8);
+
+  100%
+    opacity: 0.5;
+    transform: rotate(10deg) translateY(-10%) scale(2);
