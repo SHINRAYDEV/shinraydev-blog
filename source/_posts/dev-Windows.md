@@ -1,5 +1,5 @@
 ---
-title: 系统开发环境驯服指北 - Windows
+title: 【Windows】系统开发环境驯服指北
 swiper_index: 1
 top_group_index: 1
 background: '#fff'

@@ -1,5 +1,5 @@
 ---
-title: Sonoma 环境配置备忘 - macOS
+title: 【macOS】Sonoma 环境配置备忘
 swiper_index: 1
 top_group_index: 1
 background: '#fff'

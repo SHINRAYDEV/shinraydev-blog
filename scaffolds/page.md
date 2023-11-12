@@ -12,4 +12,5 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
+top_single_background:
 ---
