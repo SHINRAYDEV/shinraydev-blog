@@ -152,6 +152,49 @@ class AppDelegate: FlutterAppDelegate {
   }
 }
 ```
+### Flutter 多线程
+Flutter的Isolate提供了一种并发执行代码的方式，可以在多个Isolate之间并行执行任务，从而提高应用程序的性能和响应能力。每个Isolate都是相互独立的，拥有自己的事件循环、堆内存和栈，可以执行独立的计算任务、IO操作等。以下是 Isolate 的使用方式
+Isolate
+```dart
+import 'dart:isolate';
+
+// 一个耗时的计算函数，它将在新的Isolate中运行
+void expensiveComputation(Map<String, dynamic> message) {
+  final sendPort = message['sendPort'] as SendPort;
+  final int data = message['data'] as int;
+
+  int sum = 0;
+  for (int i = 0; i <= data; i++) {
+    sum += i;
+  }
+
+  // 将结果发送回主Isolate
+  sendPort.send(sum);
+}
+```
+```dart
+void main() async {
+  final receivePort1 = ReceivePort();
+  final receivePort2 = ReceivePort();
+
+  await Isolate.spawn(expensiveComputation, {
+    'sendPort': receivePort1.sendPort,
+    'data': 100000000,
+  });
+
+  await Isolate.spawn(expensiveComputation, {
+    'sendPort': receivePort2.sendPort,
+    'data': 200000000,
+  });
+
+  final result1 = await receivePort1.first;
+  final result2 = await receivePort2.first;
+
+  print('Result from first isolate: $result1');
+  print('Result from second isolate: $result2');
+}
+```
+需要注意的是，由于Isolate是相互独立的，因此不能直接访问主线程的UI组件和状态。如果需要更新UI或与UI交互，可以通过消息传递将结果返回给主线程，然后由主线程来更新UI。
 ### Flutter 测试覆盖率
 测试覆盖率生成/更新
 ```bash
