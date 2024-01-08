@@ -3,7 +3,7 @@ title: 【面试复盘】依图-算法&一面
 swiper_index: 1
 top_group_index: 1
 background: '#fff'
-date: 2024-01-02 17:38:44
+date: 2023-12-23 17:38:44
 updated:
 tags:
 categories:
@@ -40,7 +40,7 @@ aside:
 >> TheNowcoder
 >> BBook
 
-```java
+```Java
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
@@ -104,3 +104,47 @@ public class BookSorter {
 >
 > 输出
 >> NO
+```Java
+import java.util.Scanner;
+
+public class BalancedNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.next();
+        scanner.close();
+
+        if (isBalancedNumber(input)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+
+    private static boolean isBalancedNumber(String number) {
+        for (int i = 1; i < number.length(); i++) {
+            String leftPart = number.substring(0, i);
+            String rightPart = number.substring(i);
+
+            if (multiplyDigits(leftPart) == multiplyDigits(rightPart)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static int multiplyDigits(String part) {
+        int product = 1;
+        for (char digit : part.toCharArray()) {
+            product *= digit - '0';
+        }
+        return product;
+    }
+}
+```
+3.有n个学生站成一排，每个学生有一个能力值a<sub>i</sub>，牛牛想从这n个学生中按照顺序选取k名学生，要求相邻两个学生的位置的差不超过d。牛牛想要使得这k个学生的能力值乘积最大，你能返回最大的乘积吗？
+> 输入
+>> 3 2 3
+>> 7 4 7
+>
+> 输出
+>> 49
