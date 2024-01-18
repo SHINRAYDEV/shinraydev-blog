@@ -166,7 +166,7 @@ defaults write com.apple.finder FXDefaultSearchScope -string SCcf
 xcode-select --install
 ```
 
-* 显示当前路径 (「访达」- option+command+p)
+* 显示当前路径 (「访达」- <kbd>option</kbd>+<kbd>command</kbd>+<kbd>p</kbd>)
   
 ```bash
 defaults write com.apple.finder ShowPathbar -bool true

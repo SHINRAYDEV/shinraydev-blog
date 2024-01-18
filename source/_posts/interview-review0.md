@@ -344,12 +344,16 @@ public class Main {
 * 垃圾收集器？G1？
 
 ### Redis
-* redis数据淘汰策略？
-* redis持久化方法？
-* redis分布式锁？
-* redis哨兵？
-* redis Cluster哈希槽？
-* redis分片？
+* redis 数据淘汰策略？
+* redis 持久化方法？
+  **RDB(Redis Database)** 持久化 RDB 持久化会在指定的时间间隔内生成数据集的时间点快照。
+
+  **AOF(Append Only File)** 持久化 AOF 持久化记录每次写操作的日志，这些写指令将被追加到 AOF 文件的末尾。Redis 重启的时候会通过 AOF 文件重构数据。
+  
+* redis 分布式锁？
+* redis 哨兵？
+* redis Cluster 哈希槽？
+* redis 分片？
 * 缓存穿透和缓存雪崩？解决方法？布隆过滤器？
 
 ### Elasticsearch
