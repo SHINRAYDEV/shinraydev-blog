@@ -202,3 +202,9 @@ defaults write com.apple.finder QLEnableTextSelection -bool true
 ```
 
 ## 好软推荐
+
+| 软件 | 软件 | 软件 | 软件 |
+|:---:|:---:|:---:|:---:|
+| <img src="https://s2.loli.net/2024/01/01/iTerm2.png" width="64"><br>iTerm2 | <img src="https://s2.loli.net/2024/01/01/VSCode.png" width="64"><br>Visual Studio Code | <img src="https://s2.loli.net/2024/01/01/Alfred.png" width="64"><br>Alfred | <img src="https://s2.loli.net/2024/01/01/Rectangle.png" width="64"><br>Rectangle |
+| <img src="https://s2.loli.net/2024/01/01/Raycast.png" width="64"><br>Raycast | <img src="https://s2.loli.net/2024/01/01/CleanMyMac.png" width="64"><br>CleanMyMac X | <img src="https://s2.loli.net/2024/01/01/Bartender.png" width="64"><br>Bartender | <img src="https://s2.loli.net/2024/01/01/AltTab.png" width="64"><br>AltTab |
+| <img src="https://s2.loli.net/2024/01/01/Keka.png" width="64"><br>Keka | <img src="https://s2.loli.net/2024/01/01/Typora.png" width="64"><br>Typora | <img src="https://s2.loli.net/2024/01/01/Docker.png" width="64"><br>Docker | <img src="https://s2.loli.net/2024/01/01/Postman.png" width="64"><br>Postman |
