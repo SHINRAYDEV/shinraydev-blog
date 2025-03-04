@@ -1,5 +1,5 @@
 ---
-title: 【Flutter】切换按钮开发(canvas画布初上手)
+title: 【Flutter】切换按钮开发
 swiper_index: 1
 top_group_index: 1
 background: '#fff'
@@ -8,7 +8,7 @@ updated:
 tags: [Flutter,Dart,开发笔记]
 categories: 开发
 keywords:
-description:
+description: canvas画布初上手
 top_img: https://s2.loli.net/2023/11/10/Xc5rbMJndOIxhqv.png
 comments:
 cover: https://s2.loli.net/2023/11/10/Xc5rbMJndOIxhqv.png
