@@ -11,7 +11,7 @@ keywords:
 description:
 top_img:
 comments:
-cover: https://s2.loli.net/2023/04/21/YTnHyur2PX3oeGj.png
+cover: https://s2.loli.net/2025/03/04/ry1UqJIWTNvHcdZ.webp
 toc:
 toc_number:
 toc_style_simple:
