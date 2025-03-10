@@ -27,13 +27,13 @@ highlight_shrink:
 aside:
 ---
 
-🚀 **需求背景**
+## 🚀 需求背景
 在页面设计中，我们需要一个可切换状态的按钮，并且需要在按钮的右下角添加一个带圆角的不规则等腰三角形作为状态指示器。经过调研，发现Flutter现有组件无法直接满足需求，因此决定通过强大的 `Canvas` 自定义绘制来实现。
 
 
 ![image.png](https://www.notion.so/image/attachment%3Acbdd3cd6-7fc5-4bca-8fb7-38c1238d28eb%3Aimage.png?table=block&id=1aa6989f-81d8-8034-896e-dfad1aa06a1c&t=1aa6989f-81d8-8034-896e-dfad1aa06a1c)
 
-**🎨 Canvas 基础概念**
+## 🎨 Canvas 基础概念
 
 Flutter 提供了强大的 `Canvas` API，能绘制各种自定义图形。使用 `Canvas` 绘图，需要明确两个核心概念：
 
@@ -52,7 +52,7 @@ Paint _paint = Paint()
   ..strokeWidth = 2;
 ```
 
-**🛠️ 自定义圆角三角形绘制思路**
+## 🛠️ 自定义圆角三角形绘制思路
 
 我们需要绘制的图形由两部分组成：
 
@@ -125,7 +125,7 @@ RepaintBoundary(
 
 ![image.png](https://www.notion.so/image/attachment%3A045f6069-4b7c-43fc-a349-59f136c83de7%3Aimage.png?table=block&id=1ab6989f-81d8-805c-b111-e5751bbf782a&t=1ab6989f-81d8-805c-b111-e5751bbf782a)
 
-**🚩 最终封装组件源码**
+## 🚩 最终封装组件源码
 
 ```dart
 /// 切换按钮集成
@@ -195,7 +195,7 @@ class MyCustomPainter extends CustomPainter {
 
 通过以上方式，成功实现了一个带圆角三角形标识的可切换按钮，并通过合理优化保证了组件性能。
 
-# 📎 参考文章
+## 📎 参考文章
 
 - [https://api.flutter.dev/flutter/dart-ui/Canvas-class.html](https://api.flutter.dev/flutter/dart-ui/Canvas-class.html)
 - [https://book.flutterchina.club/chapter10/custom_paint.html](https://book.flutterchina.club/chapter10/custom_paint.html)
