@@ -26,11 +26,11 @@ aplayer:
 highlight_shrink:
 aside:
 ---
-📌 需求背景
+## 📌 需求背景
 
 Flutter 默认的 BottomNavigationBar 在页面切换时会销毁不可见的页面并重新创建新的页面，目的是优化性能和减少内存占用。但实际业务中，这种默认行为经常带来不便：页面状态会丢失，切换回来时需要重新初始化，影响用户体验。因此需要探索一种合适的状态持久化方案。
 
-🧪 多种方案对比实验
+## 🧪 多种方案对比实验
 
 经过调研和实验，整理了以下几种方案：
 | 组件 | `AutomaticKeepAliveClientMixin`  | `PageStorage`  | `IndexedStack`  | `Offstage` |
@@ -40,7 +40,7 @@ Flutter 默认的 BottomNavigationBar 在页面切换时会销毁不可见的页
 | 跨页面保存状态 | ❌ 否（仅在 PageView 或 ListView 内生效） | ✅ 是 | ✅ 是 | ✅ 是 |
 | 懒加载 | ✅ 是（按需加载） | ❌ 否 | ❌ 否（一次性加载所有页面） | ❌ 否（隐藏时不参与渲染和布局） |
 
-📌 方案选择与分析
+## 📌 方案选择与分析
 
 🔹 AutomaticKeepAliveClientMixin
 
@@ -54,7 +54,7 @@ Flutter 默认的 BottomNavigationBar 在页面切换时会销毁不可见的页
 
 IndexedStack 简单直接，所有页面都会保存在栈中，不会被销毁，状态天然保留。但问题在于不支持懒加载，启动时所有页面会一次性加载，造成启动变慢。
 
-🚧 懒加载优化方案（自研实现）
+### 🚧 懒加载优化方案（自研实现）
 
 为了克服 IndexedStack 不支持懒加载的问题，我实现了手动懒加载方案：
 
@@ -83,13 +83,13 @@ IndexedStack(index: _currentIndex, children: screens);
 
 此方案在用户首次点击底部导航时，才真正加载页面，从而达到懒加载的目的，显著降低启动开销。
 
-🎯 进一步优化方案
+## 🎯 进一步优化方案
 
 在进一步探索中，了解到Flutter官方提供的 Offstage 组件，其原理类似于CSS的display:none，页面隐藏时不渲染但仍然保留状态，更省内存且性能更佳。
 
 未来优化中，可以将当前IndexedStack方案替换为Offstage方案，并结合手动懒加载进一步优化性能。
 
-📌 总结
+## 📌 总结
 
 IndexedStack 能简单、快速地实现状态持久化，但存在性能问题。
 
