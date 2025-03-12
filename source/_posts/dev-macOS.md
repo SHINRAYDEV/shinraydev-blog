@@ -9,9 +9,9 @@ tags: [macOS,系统,开发环境]
 categories: 技术
 keywords:
 description:
-top_img: https://s2.loli.net/2023/10/01/lHPhNpzV9BCuv7e.jpg
+top_img: https://s2.loli.net/2025/03/12/6kcJynZHYip8Nsm.webp
 comments:
-cover: https://s2.loli.net/2023/10/01/lHPhNpzV9BCuv7e.jpg
+cover: https://s2.loli.net/2025/03/12/6kcJynZHYip8Nsm.webp
 toc:
 toc_number:
 toc_style_simple:
